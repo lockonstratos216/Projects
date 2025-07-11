@@ -20,7 +20,7 @@ goto menu
 
 :aws 
 echo you are using AWS as a provider
-set TF_DIR=C:/Users/viraj/tffiles/tfmultaws
+set TF_DIR=
 cd /d %TF_DIR%
 terraform init
 terraform validate
@@ -34,7 +34,7 @@ goto menu
 
 :az 
 echo you are using Azure as a prvider
-set TF_DIR=C:/Users/viraj/tffiles/tfmultaz
+set TF_DIR=
 cd /d %TF_DIR%
 terraform init -reconfigure
 terraform validate
